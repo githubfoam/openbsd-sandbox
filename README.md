@@ -1,7 +1,7 @@
 # openbsd-sandbox
 
 Travis (.com) branch:
-[![Build Status](https://travis-ci.com/githubfoam/openbsd-sandbox.svg?branch=dev)](https://travis-ci.com/githubfoam/openbsd-sandbox)  
+[![Build Status](https://travis-ci.com/githubfoam/openbsd-sandbox.svg?branch=test)](https://travis-ci.com/githubfoam/openbsd-sandbox)  
 
 ~~~~
 >vagrant init --template Vagrantfile.provision.bash.ubuntu.erb
