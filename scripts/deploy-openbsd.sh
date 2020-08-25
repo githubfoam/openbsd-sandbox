@@ -13,7 +13,6 @@ vagrant plugin install vagrant-mutate #Convert vagrant boxes to work with differ
 vagrant box add "generic/openbsd6" --provider=libvirt
 vagrant init --template Vagrantfile.provision.bash.openbsd.erb
 vagrant up --provider=libvirt "vg-openbsd-02"
-# vagrant ssh vgnode04 -c "hostnamectl"
 
 vagrant box list #veridy installed boxes
 vagrant status #Check the status of the VMs to see that none of them have been created yet
